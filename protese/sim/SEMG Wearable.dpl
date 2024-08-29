@@ -1,0 +1,43 @@
+<Qucs Schematic 0.0.18>
+<Properties>
+  <View=-129,0,1278,789,1,63,180>
+  <Grid=10,10,0>
+  <DataSet=SEMG Wearable.dat>
+  <DataDisplay=SEMG Wearable.sch>
+  <OpenDisplay=1>
+  <Script=SEMG Wearable.m>
+  <RunScript=0>
+  <showFrame=0>
+  <FrameText0=Título>
+  <FrameText1=Desenhado por:>
+  <FrameText2=Data:>
+  <FrameText3=Revisão:>
+</Properties>
+<Symbol>
+</Symbol>
+<Components>
+</Components>
+<Wires>
+</Wires>
+<Diagrams>
+  <Rect 30 321 466 301 3 #c0c0c0 1 10 1 1 1 1000 1 -21.559 5 11.8291 1 -1 0.5 1 315 0 225 "Frequency (Hz)" "Common Mode Gain (dB)" "">
+	<"CMdB" #0000ff 0 3 0 0 0>
+	  <Mkr 60.0403 327 -92 3 0 0>
+	  <Mkr 10 50 -190 3 0 0>
+	  <Mkr 501.879 366 -201 3 0 0>
+  </Rect>
+  <Rect 580 318 478 295 3 #c0c0c0 1 10 1 1 1 1000 1 56.5912 5 77.1074 1 -1 0.5 1 315 0 225 "Frequency (Hz)" "Differential Mode Gain (dB)" "">
+	<"DMdB" #ff0000 0 3 0 0 0>
+	  <Mkr 60.0403 96 -105 3 0 0>
+	  <Mkr 501.879 441 -291 3 0 0>
+	  <Mkr 10 16 -290 3 0 0>
+  </Rect>
+  <Rect 30 713 467 296 3 #c0c0c0 1 11 1 1 1 1000 1 -1000 500 500 1 -1 0.5 1 315 0 225 "Frequency (Hz)" "CMRR" "">
+	<"CMRR" #005500 0 3 0 0 0>
+	  <Mkr 501.879 467 -141 3 1 0>
+	  <Mkr 10 146 -75 3 1 0>
+	  <Mkr 60.0403 326 -272 3 1 0>
+  </Rect>
+</Diagrams>
+<Paintings>
+</Paintings>
